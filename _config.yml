@@ -25,7 +25,7 @@
 # author : Dereck Curry
 name : Ed George Github
 brand : Ed George
-description : Programmer, Human Man and Professional Hoarder
+description : Ed George - Github
 url : http://ed-george.github.io
 email : ed@boppl.me
 author: Ed George
@@ -173,13 +173,13 @@ sections:
     content :
       enabled : true
     social_links :
-      enabled : false
+      enabled : true
     github_projects :
       enabled : true
   social_links :
     enabled : false
   github_projects :
-    enabled : false
+    enabled : true
   external_links :
     enabled : true
   archive :
@@ -218,9 +218,9 @@ navbar :
   tags :
     enabled : true
   github_projects :
-    enabled : false
+    enabled : true
   social_links :
-    enabled : false
+    enabled : true
   external_links :
     enabled : false
 
@@ -339,6 +339,15 @@ github_projects :
   - project :
     name : Breedr Android
     url : https://github.com/Breedr/Breedr-Android
+  - project :
+    name : Breedr IVCalculator
+    url : https://github.com/Breedr/IVCalculator
+  - project :
+    name : 3D Solar System in Visual C++ 
+    url : https://github.com/ed-george/cpp-space
+  - project :
+    name : The OUFC Score Scraper
+    url : https://github.com/ed-george/TheOUFCScoreScraper
 
 
 # These are links to other websites outside of the blog that are not part of
