@@ -300,7 +300,7 @@ social_links :
       enabled : true
       name : Linkedin
       font_awesome_icon : icon-linkedin
-      url : https://www.facebook.com/ed.w.george
+      url : https://uk.linkedin.com/in/edgeorge/
     - link :
       enabled : false
       font_awesome_icon : icon-pinterest
