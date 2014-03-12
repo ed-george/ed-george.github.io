@@ -1,0 +1,218 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.0 (5/5/13)
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+\addbibresource{bibliography.bib} % Specify the bibliography file to include publications
+
+\begin{document}
+
+\header{Ed}{George}{Android Developer} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{contact}
+28 Cheshire Road
+Thame, Oxon
+OX93LQ
+~
++44 7450 917 293
++44 1844 261 259
+~
+\href{mailto:esm@hotmail.co.uk}{esm@hotmail.co.uk}
+\href{http://ed-george.github.io}{ed-george.github.io}
+\href{http://github.com/ed-george}{github.com/ed-george}
+\section{programming}
+{\color{red} $\varheartsuit$} Android
+Java, C, C++, Haskell, ARM Assembly, Bash, HTML, CSS, PHP
+\section{operating systems}
+Mac OSX, Windows and Linux Distros
+\section{other}
+Git/SVN, MySQL, ORMLite, JUnit, myPHPAdmin
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{education}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2010--2013}
+{Bachelor {\normalfont of Computer Science}}
+{The University of Nottingham, Nottingham}
+{\emph{An Application Approach To Mobile Signal Analysis} \\ My dissertation focused primarily on the Android platform and used Java to create a mobile application to access real time information about mobile signal speed and strength. This project earned a first class mark and enabled me to use common workplace practises such as test driven development and agile software methodologies.\\Overall, I graduated with a Second Class Degree (Upper Tier).}
+%------------------------------------------------
+\entry
+{2008--2010}
+{Sixth Form}
+{Lord Williams's School, Thame}
+{A Levels: ICT (A), Physics (B), Maths (C) and AS Geography (C)}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{experience}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2013--Now}
+{BOPPL LTD}
+{London, United Kingdom}
+{\emph{Android Developer} \\
+Developed the Android application for Boppl, a mobile ordering platform used within the hospitality industry, that allows users to purchase food and drink at selected venues. \\
+Detailed achievements \& responsibilities:
+\begin{itemize}
+\item Creating and maintaining bespoke Android applications from scratch
+\begin{itemize}
+\item Released to the Google Play Store and gaining 100+ downloads
+\item Using standard Android tools such as DDMS and adb to debug code
+\end{itemize}
+\item Learned how to work with common external libraries such as GSON \& ORMLite
+\item Used version control (Git) effectively
+\item Worked with JSON and a RESTful API
+\item Providing documentation and support for multiple systems
+\item Working with a small team of professionals
+%
+%\item Finally determined the reason for \textsc{PC LOAD LETTER}:
+%\begin{itemize}
+%\item Paper jam
+%\item Software issues:
+%\begin{itemize}
+%\item Word not sending the correct data to printer
+%\item Windows trying to print in letter format
+%\end{itemize}
+%\item Coffee spilled inside printer
+%\end{itemize}
+%\item Broke the office record for number of kitten pictures in cubicle
+\end{itemize}}
+%------------------------------------------------
+\entry
+{2012--2013}
+{ED GEORGE DESIGNS}
+{Oxford, United Kingdom}
+{\emph{Web Designer \& Founder} \\
+Founded a small web design business creating and maintaining tailored websites for multiple clients.
+\begin{itemize}
+\item Conducting professional client interviews and requirement specifications
+\item Providing professional standard documentation
+\item Working with a variety of Content Managment Systems, Programming and Markup Languages
+\end{itemize}}
+%------------------------------------------------
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{awards}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2010}
+{Nick Nichols ICT Award}
+{Lord Williams's School}
+{}
+\entry
+{2006-2009}
+{Member of Gifted \& Talented UK}
+{Lord Williams's School}
+{}
+\entry
+{2012}
+{Nominated for 'Outstanding Contribution to a Society'}
+{Nottingham University}
+{Nominated for contributions to CompSoc}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{leadership activities}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2011--2012}
+{Social Secretary - Computer Society}
+{University of Nottingham}
+{Responsible for the organization of trips/socials for the society.
+Including a trip to CeBit Hanover, Germany for 35+ students. Also responsible for organization of sponsor talks and other soiety duties.}
+%------------------------------------------------
+\entry
+{2012 -- 2013}
+{3\textsuperscript{rd} Year Course Rep}
+{University of Nottingham}
+{Responsible for guiding potential candidates around campus and the department, answering questions and meeting Parent/Student requests. Also required as a liaison to the Department with feedback from Parents/Potential Students}
+%------------------------------------------------
+\entry
+{2012 -- 2013}
+{Ucas Tour Guide}
+{University of Nottingham}
+{Responsible for attending Learning Forums and for voicing concerns from my peers to Academic Staff.}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{interests}
+
+\textbf{professional:} mobile development, emerging technologies, programming paradigms, web design, web app creation, software design, marketing \textbf{personal:} music, guitar (bass \& electric), current affairs, football, american sports, retro gaming
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{publications}
+
+\printbibsection{article}{article in peer-reviewed journal} % Print all articles from the bibliography
+
+\printbibsection{book}{books} % Print all books from the bibliography
+
+\begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
+\nocite{*}
+\printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, notkeyword={france}, heading=subbibliography]
+\end{refsection}
+
+\begin{refsection} % This is a custom heading for those references marked as "inproceedings" and containing "keyword=france"
+\nocite{*}
+\printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, heading=subbibliography]
+\end{refsection}
+
+\printbibsection{misc}{other publications} % Print all miscellaneous entries from the bibliography
+
+\printbibsection{report}{research reports} % Print all research reports from the bibliography
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
