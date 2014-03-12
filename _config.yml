@@ -373,12 +373,15 @@ github_projects :
 #       name : Lowcountry Blues Club
 #       url : http://lowcountrybluesclub.blogspot.com
 external_links :
-  header : Breedr
+  header : Links
   links :
+    - link :
+      name : My Latest CV
+      url: http://ed-george.github.io/other/cv/EdGeorgeCv.pdf
     - link :
       name : Breedr Android Project
       url: http://breedr.github.io/Breedr-Android
-
+    
 
 # These are the bootstrap settings. These bootstrap settings will control both
 # the theme and responsive settings of this site.
