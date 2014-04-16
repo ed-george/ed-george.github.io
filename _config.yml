@@ -337,6 +337,9 @@ github_projects :
   header : Featured GitHub Projects
   projects :
   - project :
+    name : pi-Racey
+    url : https://github.com/ed-george/piRacey
+  - project :
     name : Breedr Android
     url : https://github.com/Breedr/Breedr-Android
   - project :
