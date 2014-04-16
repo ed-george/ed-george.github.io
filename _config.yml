@@ -54,6 +54,7 @@ paginate : 10
 alert : false
 notice : false
 
+markdown: kramdown
 
 # The favicon image served up to web browsers. Enable the local if you want
 # to serve up a file directly from the gh-pages-blog. The partial URL will be
