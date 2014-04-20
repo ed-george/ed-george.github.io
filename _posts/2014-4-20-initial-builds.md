@@ -49,29 +49,27 @@ To continue the project, I decided to scrap the use of Java and Pi4J and move to
 To start testing on the Pi, the system will require multiple libraries and drivers. These can be easily installed through the following commands:
 
 ```
-sudo apt-get update
+$ sudo apt-get update
 
-sudo apt-get upgrade
+$ sudo apt-get upgrade
 
-# Update packages and packages list
+Update packages and packages list
 
-sudo apt-get install --no-install-recommends bluetooth
+$ sudo apt-get install --no-install-recommends bluetooth
 
-# Install bluetooth drivers to allow communication to 
+Install bluetooth drivers to allow communication to 
+bluetooth devices, such as the Wiimote
 
-# bluetooth devices, such as the Wiimote
+The parameter ensures only the bare essentials of the
+bluetooth driver is installed
 
-# The parameter ensures only the bare essentials of the
+$ sudo apt-get install python-cwiid
 
-# bluetooth driver is installed
+Install the CWiid Python library
 
-sudo apt-get install python-cwiid
+$ sudo apt-get install python-rpi.gpio
 
-# Install the CWiid Python library
-
-sudo apt-get install python-rpi.gpio
-
-# Install the Python Raspberry Pi GPIO library  
+Install the Python Raspberry Pi GPIO library  
 
 ```
 Once a [compatible Bluetooth adapter](http://elinux.org/RPi_USB_Bluetooth_adapters) has been plugged into the Pi, the status of the Bluetooth service can be tested through the use of 
