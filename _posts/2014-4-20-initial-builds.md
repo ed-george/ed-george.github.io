@@ -50,17 +50,29 @@ To start testing on the Pi, the system will require multiple libraries and drive
 
 ```
 sudo apt-get update
+
 sudo apt-get upgrade
+
 # Update packages and packages list
+
 sudo apt-get install --no-install-recommends bluetooth
+
 # Install bluetooth drivers to allow communication to 
+
 # bluetooth devices, such as the Wiimote
+
 # The parameter ensures only the bare essentials of the
+
 # bluetooth driver is installed
+
 sudo apt-get install python-cwiid
+
 # Install the CWiid Python library
+
 sudo apt-get install python-rpi.gpio
+
 # Install the Python Raspberry Pi GPIO library  
+
 ```
 Once a [compatible Bluetooth adapter](http://elinux.org/RPi_USB_Bluetooth_adapters) has been plugged into the Pi, the status of the Bluetooth service can be tested through the use of 
 `sudo service bluetooth status` - This should return a message of `[ ok ] bluetooth is running.` which indicates Bluetooth is running correctly. Should any other message appear, the Pi should be restarted.
