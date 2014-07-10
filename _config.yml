@@ -338,6 +338,9 @@ github_projects :
   header : Featured GitHub Projects
   projects :
   - project :
+    name : Cut Off
+    url : https://github.com/ed-george/CutOff
+  - project :
     name : pi-Racey
     url : https://github.com/ed-george/piRacey
   - project :
