@@ -337,6 +337,8 @@ social_links :
 github_projects :
   header : Featured GitHub Projects
   projects :
+  - project : NotifJ
+    url : https://github.com/ed-george/NotifJ
   - project :
     name : Cut Off
     url : https://github.com/ed-george/CutOff
@@ -386,8 +388,8 @@ external_links :
       name : My Latest CV
       url: http://ed-george.github.io/other/cv/EdGeorgeCv.pdf
     - link :
-      name : Breedr Android Project
-      url: http://breedr.github.io/Breedr-Android
+      name : Breedr Apps
+      url: http://breedrapps.uk
     
 
 # These are the bootstrap settings. These bootstrap settings will control both
