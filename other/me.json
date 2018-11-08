@@ -1,0 +1,84 @@
+{
+   "name":"Ed George",
+   "age":22,
+   "gender":"Male",
+   "education":{
+      "university":{
+         "name":"University of Nottingham",
+         "courses":[
+            "BSc Computer Science"
+         ],
+         "result":"Upper Second Class"
+      },
+      "college":{
+         "name":"Lord Williams's Sixth Form",
+         "courses":[
+            "A-Level ICT",
+            "A-Level Physics",
+            "A-Level Maths",
+            "AS Geography"
+         ],
+         "result":"ABCC"
+      },
+      "high_school":{
+         "name":"Lord Williams's School",
+         "courses":[
+
+         ],
+         "result":null
+      }
+   },
+   "current_location":{
+      "latitude":"51.7444865",
+      "longitude":"-0.974216"
+   },
+   "programming_languages":[
+      "Java",
+      "Bash",
+      "C/C++",
+      "Haskell",
+      "PHP"
+   ],
+   "interests":[
+      "Android",
+      "Guitar",
+      "Retro Gaming",
+      "Github"
+   ],
+   "likes":{
+      "alcohol":[
+         "Camden Hells",
+         "Southern Comfort",
+         "Ales"
+      ],
+      "games":[
+        "Pokémon Red/Crystal/Ruby/HeartGold/Black/X",
+        "Grand Theft Auto",
+        "Crash Bandicoot",
+        "FIFA",
+        "Super Mario World 3",
+        "Papers Please",
+        "VVVVV"
+      ],
+      "movies":[
+         "Friday",
+         "Hunger Games",
+         "Spirited Away",
+         "Pokémon The Movie 2000"
+      ],
+      "music":[
+         "Iron Maiden",
+         "Red Hot Chili Peppers",
+         "Mad Capsule Markets",
+         "Heart of a Coward",
+         "Rick James"
+      ],
+      "tv_shows":[
+         "Game of Thrones",
+         "Flashforward",
+         "South Park",
+         "Simpsons",
+         "Family Guy"
+      ]
+   }
+}
