@@ -1,0 +1,15 @@
+- name: AndroidVimeoExtractor
+  descr: "Fetches Vimeo's mp4 URLs for Android / Java projects"
+  github: https://github.com/ed-george/AndroidVimeoExtractor
+
+- name: VersionKontrol
+  descr: "A tiny Kotlin library to determine if a version string is newer when compared to another"
+  github: https://github.com/ed-george/VersionKontrol
+
+- name: TCGenius
+  descr: "TCGenius is a Pokémon Trading Card Discord bot written in Kotlin"
+  github: https://github.com/ed-george/TCGenius
+
+- name: fukkit
+  descr: "A Kotlin application to censor profanity within an audio file using ffmpeg"
+  github: https://github.com/ed-george/fukkit

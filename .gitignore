@@ -1,0 +1,6 @@
+# ed-george.github.io
+
+.sass-cache/
+_site/
+_drafts/
+.DS_Store

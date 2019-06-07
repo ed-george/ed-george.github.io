@@ -1,0 +1,14 @@
+{% if page.author %} {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %} {% endif %}
+
+<h1><span data-i18n="skills.my_skills">About</span></h1>
+
+<div>
+    Hi there! I'm Ed, an Android developer and programmer from Oxfordshire, UK.
+<p>
+    I have been programming since I was 13 years old and have a broad interest in programming languages, mobile applications and general computer science. 
+<p>
+    Outside of programming, you can find me playing Pokémon games, supporting Oxford United and enjoying pictures of sausage dogs.
+
+<p>
+    For <em>more</em> on my professional skills, please check my <a href="/other/cv/EdGeorgeCv.pdf">current CV</a> {% if author.linkedin %} or my <a href="http://linkedin.com/in/{{ author.linkedin }}" class="social-link-item" target="_blank">LinkedIn</a>{% endif %}.
+</div>
