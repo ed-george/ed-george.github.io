@@ -4,6 +4,7 @@ title: "Writing 'Finite State Machines' in Kotlin (Part 1) - DFA"
 excerpt: "Could we implement finite state machines in Kotlin and how might they be useful in the real world?"
 categories: [Kotlin, Computer Science]
 comments: true
+medium: https://medium.com/@spaghetticode/finite-state-machines-in-kotlin-part-1-57e68d54d93b
 image:
   feature: /post/state_1.jpg
   credit: Pixabay
