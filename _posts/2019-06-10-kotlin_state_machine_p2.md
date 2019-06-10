@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Writing 'Finite State Machines' in Kotlin (Part 2) - 'Delta Hat'"
-excerpt: "Could we implement finite state machines in Kotlin and how might they be useful in the real world?"
+excerpt: "In this part we shall move on to defining and implementing delta hat, better known as the 'extended transition function'"
 categories: [Kotlin, Computer Science]
 comments: true
 medium: https://medium.com/@spaghetticode/writing-finite-state-machines-in-kotlin-part-2-delta-hat-3f2ae5eb42bd
