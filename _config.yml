@@ -7,7 +7,7 @@ title: Ed George - Android Developer
 email:
 description: Full time burrito enthusiast and lover of all things Android, Kotlin and more.
 url: https://ed-george.github.io
-keywords: ["blog", "android", "kotlin", "java", "mobile", "androiddev"]
+keywords: ["blog", "android", "kotlin", "java", "mobile", "androiddev", "code", "development"]
 
 #
 ###################################
@@ -50,7 +50,7 @@ owner:
   bing-verify:
   github: ed-george
   gitlab: #username
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  stackoverflow: 717778/ed-george
   linkedin: edgeorge
   skype: #username
   xing: #username
@@ -69,4 +69,4 @@ owner:
   codepen: #username
   reddit: #username
   telegram: #username
-  medium: spaghetticode
+  medium: sp4ghetticode
