@@ -1,13 +1,18 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name: ASOS
+  link: https://himumsaiddad.com
+  date: May 2021 - <i class="fa fa-calendar" aria-hidden="true" title="Present"></i>
+  job: Senior Android Developer
+
 - name: Hi Mum! Said Dad
   link: https://himumsaiddad.com
-  date: November 2017 - <i class="fa fa-calendar" aria-hidden="true" title="Present"></i>
+  date: November 2017 - May 2021
   job: Lead Android Developer
 
 - name: Hi Mum! Said Dad
   link: https://himumsaiddad.com
-  date: April 2015 - <i class="fa fa-calendar" aria-hidden="true" title="Present"></i>
+  date: April 2015 - May 2021
   job: Android / iOS Developer
 
 - name: Boppl
