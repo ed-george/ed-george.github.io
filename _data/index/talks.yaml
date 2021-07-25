@@ -1,0 +1,27 @@
+# - title: Example Talk
+#   event:
+#     title: Example Event
+#     url: http://example.com/optional-url
+#     date: '1992-01-30'
+#   slides:
+#     title: Optional Slides Title
+#     url: http://example.com
+#   video:
+#     title: Optional Video Title
+#     url: http://example.com
+#   links:
+#   - title: Optional External link 1
+#     url: https://example.com
+#   - title: Optional External link 2
+#     url: https://example.com
+#.    icon: 
+
+- title: Sorting and Reporting Your Dependencies with Gradle
+  event:
+    title: Android Worldwide
+    url: https://android-worldwide.com
+    date: '2021-07-27'
+  links:
+  - title: Dependency Report Example
+    url: https://github.com/ed-george/app-dependency-report-example
+    icon: github

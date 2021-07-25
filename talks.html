@@ -1,0 +1,59 @@
+---
+layout: page
+title:  Talks
+permalink: /talks/
+---
+
+{% if page.author %} {% assign author = site.data.authors[page.author] %} {% else %} {% assign author = site.owner %} {% endif %}
+
+{% assign talks = site.data.index.talks %}
+{% assign talk_count = talks | size %}
+
+{% assign talks_by_year = talks | group_by_exp:"talks", "talks.event.date | date: '%Y' " | reverse %}
+
+<div class="talks">
+
+  <div class="timeline" id="timeline">
+
+    <div class="talks-year-title">
+        <h4 class="talks-year">The Future</h4>
+    </div>
+
+    <ul>
+        <li>
+          <h5 class="talks-title">Want me to speak at your event?</h5>
+          <div class="talks-event">{% if author.twitter %}<a href="http://twitter.com/{{ author.twitter }}" target="_blank"><i class="fa fa-fw fa-twitter"></i> Tweet me</a> and let me know!{% endif %}</div>
+        </li>
+    </ul>
+
+    {% for group in talks_by_year %}
+      <div class="talks-year-title">
+        <h4 class="talks-year">{{ group.name }}</h4>
+      </div>
+
+      {% for talk in group.items %}
+      <ul>
+        <li>
+          <h5 class="talks-title">{{ talk.title }}</h5>
+          <div class="talks-event">{{ talk.event.date | date: "%b %-d" }} &commat; <a href="{{ talk.event.url }}" target="_blank">{{ talk.event.title }}</a>
+          {% if talk.video %}
+                &#8212; <a href="{{ talk.video.url }}" target="_blank"><i class="fa fa-fw fa-film"></i> {{ talk.video.title }} </a>
+          {% endif %}
+          {% if talk.slides %}
+                &#8212; <a href="{{ talk.slides.url }}" target="_blank"><i class="fa fa-fw fa-file-powerpoint-o"></i> {{ talk.slides.title }} </a>
+          {% endif %}
+          {% if talk.links %}
+              {% for link in talk.links %}
+              {% if link.icon %} {% assign icon = link.icon %} {% else %} {% assign icon = "link" %} {% endif %}
+                  &#8212; <a href="{{ link.url }}" target="_blank"><i class="fa fa-fw fa-{{ icon }}"></i> {{ link.title }} </a>
+              {% endfor %}
+          {% endif %}
+          </div>
+        </li>
+      </ul>
+      {% endfor %}
+
+    {% endfor %}
+  </div>
+
+</div>
