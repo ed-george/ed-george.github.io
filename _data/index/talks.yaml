@@ -14,7 +14,7 @@
 #     url: https://example.com
 #   - title: Optional External link 2
 #     url: https://example.com
-#.    icon: 
+#     icon: optional-icon
 
 - title: Sorting and Reporting Your Dependencies with Gradle
   event:
@@ -22,6 +22,8 @@
     url: https://android-worldwide.com
     date: '2021-07-27'
   links:
+  - title: Original Blog Post
+    url: https://ed-george.github.io/articles/15-07-2020/gradle-sorting-reporting
   - title: Dependency Report Example
     url: https://github.com/ed-george/app-dependency-report-example
     icon: github
