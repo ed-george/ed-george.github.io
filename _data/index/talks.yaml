@@ -21,6 +21,9 @@
     title: Android Worldwide
     url: https://android-worldwide.com
     date: '2021-07-27'
+  slides:
+    title: Slides
+    url: https://speakerdeck.com/sp4ghetticode/sorting-and-reporting-your-dependencies-with-gradle
   links:
   - title: Original Blog Post
     url: https://ed-george.github.io/articles/15-07-2020/gradle-sorting-reporting
