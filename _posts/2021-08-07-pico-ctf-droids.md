@@ -304,7 +304,9 @@ So, I checked the smali for the `getFlag` method
 .end method
 {% endhighlight %}
 
-Could it be as simple as changing `invoke-static {p0}, Lcom/hellocmu/picoctf/FlagstaffHill;->nope(Ljava/lang/String;)Ljava/lang/String;` to use `yep`? I modified the file and followed the steps to recompile the build with my modified code
+Could it be as simple as changing `nope(Ljava/lang/String;)Ljava/lang/String;` to use `yep`? 
+
+I modified the file and followed the steps to recompile the build with my modified code
 
 {% highlight shell %}
 
