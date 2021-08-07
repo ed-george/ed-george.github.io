@@ -158,6 +158,28 @@ a.read-more {
   }
 }
 
+// Spoliers
+
+.spoilier {
+  background-color: black;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: background-color 0.5s ease-in;
+  font-family: $font-family-monospace;
+  color: black;
+  font-size: 0.9em;
+  font-size: ($font-size-base - 3);
+  padding: 5px;
+}
+
+.spoilier:hover {
+  cursor: pointer;
+  background-color: #f8f8f8 !important;
+}
+
 // Shares Buttons
 .share-buttons {
   padding-top: 1em;
