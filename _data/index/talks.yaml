@@ -24,6 +24,9 @@
   slides:
     title: Slides
     url: https://speakerdeck.com/sp4ghetticode/sorting-and-reporting-your-dependencies-with-gradle
+  video:
+    title: Video on YouTube
+    url: https://youtu.be/4PCCiEThhbE
   links:
   - title: Original Blog Post
     url: https://ed-george.github.io/articles/15-07-2020/gradle-sorting-reporting
