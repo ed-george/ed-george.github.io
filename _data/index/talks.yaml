@@ -16,6 +16,11 @@
 #     url: https://example.com
 #     icon: optional-icon
 
+- title: Config-driven A/B Experiments​ that don't require an app release​
+  event:
+    title: Droidcon London 2021
+    url: https://www.droidcon.com/events/droidcon-london-2021/
+    date: '2021-10-29'
 - title: Sorting and Reporting Your Dependencies with Gradle
   event:
     title: Android Worldwide
