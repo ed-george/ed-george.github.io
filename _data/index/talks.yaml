@@ -21,6 +21,12 @@
     title: Droidcon London 2021
     url: https://www.droidcon.com/events/droidcon-london-2021/
     date: '2021-10-29'
+  slides:
+    title: Slides
+    url: https://speakerdeck.com/sp4ghetticode/b-experiments-that-dont-require-an-app-release
+  links:
+  - title: ASOS Careers
+    url: https://www.linkedin.com/company/asos-com/jobs
 - title: Sorting and Reporting Your Dependencies with Gradle
   event:
     title: Android Worldwide
