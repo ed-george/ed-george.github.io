@@ -24,6 +24,9 @@
   slides:
     title: Slides
     url: https://speakerdeck.com/sp4ghetticode/b-experiments-that-dont-require-an-app-release
+  video:
+    title: Video on Droidcon
+    url: https://www.droidcon.com/2021/11/17/implementing-config-driven-experiments-that-dont-require-a-release
   links:
   - title: ASOS Careers
     url: https://www.linkedin.com/company/asos-com/jobs
