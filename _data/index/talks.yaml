@@ -15,8 +15,12 @@
 #   - title: Optional External link 2
 #     url: https://example.com
 #     icon: optional-icon
-
-- title: Config-driven A/B Experiments​ that don't require an app release​
+- title: Don’t get stung by OWASP - An intro into writing code for greater Android Security
+  event:
+    title: Android Worldwide
+    url: https://android-worldwide.com
+    date: '2022-01-25'
+- title: Config-driven A/B Experiments that don't require an app release
   event:
     title: Droidcon London 2021
     url: https://www.droidcon.com/events/droidcon-london-2021/
