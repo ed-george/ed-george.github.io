@@ -20,6 +20,12 @@
     title: Android Worldwide
     url: https://android-worldwide.com
     date: '2022-01-25'
+  links:
+  - title: Companion App
+    url: https://github.com/ed-george/owasp-top-five
+    icon: github
+  - title: OWASP Top 10
+    url: https://owasp.org/www-project-mobile-top-10
 - title: Config-driven A/B Experiments that don't require an app release
   event:
     title: Droidcon London 2021
