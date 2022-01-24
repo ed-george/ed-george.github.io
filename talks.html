@@ -9,7 +9,7 @@ permalink: /talks/
 {% assign talks = site.data.index.talks %}
 {% assign talk_count = talks | size %}
 
-{% assign talks_by_year = talks | group_by_exp:"talks", "talks.event.date | date: '%Y' " | reverse %}
+{% assign talks_by_year = talks | group_by_exp:"talks", "talks.event.date | date: '%Y' " %}
 
 <div class="talks">
 

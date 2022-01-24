@@ -20,6 +20,9 @@
     title: Android Worldwide
     url: https://android-worldwide.com
     date: '2022-01-25'
+  slides:
+    title: Slides
+    url: https://speakerdeck.com/sp4ghetticode/dont-get-stung-by-owasp-an-intro-into-writing-code-for-greater-android-security
   links:
   - title: Companion App
     url: https://github.com/ed-george/owasp-top-five
