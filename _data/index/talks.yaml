@@ -23,6 +23,9 @@
   slides:
     title: Slides
     url: https://speakerdeck.com/sp4ghetticode/dont-get-stung-by-owasp-an-intro-into-writing-code-for-greater-android-security
+  video:
+    title: Video on YouTube
+    url: https://youtu.be/HRJw8RIgbSg
   links:
   - title: Companion App
     url: https://github.com/ed-george/owasp-top-five
