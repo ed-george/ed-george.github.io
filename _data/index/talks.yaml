@@ -15,6 +15,14 @@
 #   - title: Optional External link 2
 #     url: https://example.com
 #     icon: optional-icon
+- title: Don’t get stung by OWASP II - The Final Five
+  event:
+    title: Android Worldwide
+    url: https://android-worldwide.com
+    date: '2022-04-19'
+  links:
+  - title: OWASP Top 10
+    url: https://owasp.org/www-project-mobile-top-10
 - title: Don’t get stung by OWASP - An intro into writing code for greater Android Security
   event:
     title: Android Worldwide
