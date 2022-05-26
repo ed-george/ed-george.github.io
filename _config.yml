@@ -3,7 +3,7 @@
 # Site wide configuration
 ####################################
 #
-title: Ed George - Android Developer
+title: Ed Holloway-George - Android Developer
 email:
 description: Full time burrito enthusiast and lover of all things Android, Kotlin and more.
 url: https://ed-george.github.io
@@ -33,7 +33,7 @@ kramdown:
 ####################################
 
 owner:
-  name: Ed George
+  name: Ed Holloway-George
   avatar: ed.png
   job: "Android Developer"
   bio: "Full time burrito enthusiast and lover of all things Android, Kotlin and more."
