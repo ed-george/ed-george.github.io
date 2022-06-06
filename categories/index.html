@@ -3,12 +3,16 @@ layout: page
 title:  Categories
 permalink: /categories/
 ---
+
+{% assign categories = site.categories | sort %}
+
 <div class="tag-list">
-{% for cat in site.categories %}
+{% for cat in categories %}
   <div class="tag-group">
     {% capture cat_name %}{{ cat | first }}{% endcapture %}
     <h5 class="tag-group-title" id="{{ cat_name | slugize }}">{{ cat_name }}</h5>
-    {% for post in site.categories[cat_name] %}
+    {% assign category_posts = site.categories[cat_name] | sort %}
+    {% for post in category_posts %}
     <article class="tag-item">
       <a class="tag-item-title" href="{{ site.url }}{{ post.url }}">{{post.title}}</a>
     </article>

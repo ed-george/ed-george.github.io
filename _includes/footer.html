@@ -1,4 +1,18 @@
 <footer>
+
+<hr />
+
+  {% if author.twitter %} 
+    <a href="https://twitter.com/{{author.twitter}}">
+  {% endif %}
+    
+  <img src="{{site.url}}/img/logo.png" alt="@Sp4ghettiCode"/>
+  
+  {% if author.twitter %}
+    </a>
+  {% endif %}
+
   &copy; 2018–{{ site.time | date: '%Y' }} {{ site.owner.name }}
   <br />Built using <a href="http://github.com/renyuanz/leonids/">leonids</a> and made with <i class="fa fa-heart heart-icon"></i>
+  
 </footer>
