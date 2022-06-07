@@ -192,3 +192,17 @@
 .warning-bg-color {
   background-color: $warning;
 }
+
+// Animations
+
+.grow:hover {
+  transform: scale(1.2);
+}
+
+.shrink:hover {
+  transform: scale(0.8);
+}
+
+.transition {
+  transition: all 0.3s ease-in-out;
+}
