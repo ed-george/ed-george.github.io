@@ -20,9 +20,17 @@
     title: Android Worldwide
     url: https://android-worldwide.com
     date: '2022-07-26'
+  video:
+    title: Video on YouTube
+    url: https://youtu.be/MUwrzaXQLs4
+  slides:
+    title: Slides
+    url: https://speakerdeck.com/sp4ghetticode/dont-get-stung-by-owasp-episode-ii
   links:
   - title: OWASP Top 10
     url: https://owasp.org/www-project-mobile-top-10
+  - title: Smart Sheriff Pentest
+    url: https://7asecurity.com/reports/pentest-report_smartsheriff.pdf
 - title: Don’t get stung by OWASP - An intro into writing code for greater Android Security
   event:
     title: Android Worldwide
