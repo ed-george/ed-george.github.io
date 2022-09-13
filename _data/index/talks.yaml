@@ -15,6 +15,11 @@
 #   - title: Optional External link 2
 #     url: https://example.com
 #     icon: optional-icon
+- title: "How to become your app’s ‘security champion’"
+  event:
+    title: "Droidcon London 2022"
+    url: https://london.droidcon.com/ed-holloway-george
+    date: '2022-10-28'
 - title: "#AndroidDev and Security w/ @Sp4ghettiCode"
   event:
     title: "#AndroidDev Twitter Space"
@@ -27,7 +32,6 @@
   - title: "@himattm"
     url: https://twitter.com/himattm
     icon: twitter
-
 - title: Don’t get stung by OWASP II - The Final Five
   event:
     title: Android Worldwide
