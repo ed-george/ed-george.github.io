@@ -15,11 +15,21 @@
 #   - title: Optional External link 2
 #     url: https://example.com
 #     icon: optional-icon
+- title: "TBC"
+  event:
+    title: "App Talks Manchester Meetup"
+    url: https://www.meetup.com/app-talks-manchester/events/289204450/
+    date: '2022-11-17'
 - title: "How to become your app’s ‘security champion’"
   event:
     title: "Droidcon London 2022"
     url: https://london.droidcon.com/ed-holloway-george
     date: '2022-10-28'
+- title: "Building Secure Apps, Root/Jailbreak Detection, Tap Jacking & more!"
+  event:
+    title: "Coffee & Coding Podcast"
+    url: https://coffeeandcodingpod.com/s3e5/
+    date: '2022-10-19'
 - title: "#AndroidDev and Security w/ @Sp4ghettiCode"
   event:
     title: "#AndroidDev Twitter Space"
