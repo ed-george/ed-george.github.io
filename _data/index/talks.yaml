@@ -15,7 +15,7 @@
 #   - title: Optional External link 2
 #     url: https://example.com
 #     icon: optional-icon
-- title: "TBC"
+- title: "OWASP Top 10 in 10 Minutes (working title)"
   event:
     title: "App Talks Manchester Meetup"
     url: https://www.meetup.com/app-talks-manchester/events/289204450/
@@ -25,6 +25,9 @@
     title: "Droidcon London 2022"
     url: https://london.droidcon.com/ed-holloway-george
     date: '2022-10-28'
+  links:
+  - title: Security Champion Success Guide
+    url: https://securitychampionsuccessguide.org
 - title: "Building Secure Apps, Root/Jailbreak Detection, Tap Jacking & more!"
   event:
     title: "Coffee & Coding Podcast"
