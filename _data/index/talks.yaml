@@ -25,9 +25,18 @@
     title: "Droidcon London 2022"
     url: https://london.droidcon.com/ed-holloway-george
     date: '2022-10-28'
+  slides:
+    title: Slides
+    url: https://speakerdeck.com/sp4ghetticode/how-to-become-your-apps-security-champion
   links:
   - title: Security Champion Success Guide
     url: https://securitychampionsuccessguide.org
+  - title: MobSF
+    url: https://mobsf.github.io/docs/#/
+  - title: ProGuard Playground
+    url: https://playground.proguard.com
+  - title: JADX
+    url: https://github.com/skylot/jadx
 - title: "Building Secure Apps, Root/Jailbreak Detection, Tap Jacking & more!"
   event:
     title: "Coffee & Coding Podcast"
