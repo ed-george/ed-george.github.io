@@ -5,9 +5,9 @@
 #
 title: Ed Holloway-George - Android Developer
 email:
-description: Full time burrito enthusiast and lover of all things Android, Kotlin and more.
+description: Android developer and lover of all things mobile security, Kotlin and more.
 url: https://ed-george.github.io
-keywords: ["blog", "android", "kotlin", "java", "mobile", "androiddev", "code", "development"]
+keywords: ["security", "blog", "android", "kotlin", "java", "mobile", "androiddev", "code", "development"]
 
 #
 ###################################
@@ -36,7 +36,7 @@ owner:
   name: Ed Holloway-George
   avatar: ed.png
   job: "Android Developer"
-  bio: "Full time burrito enthusiast and lover of all things Android, Kotlin and more."
+  bio: "Android developer and lover of all things mobile security, Kotlin and more."
   email:
   disqus-shortname:
   twitter: sp4ghetticode
@@ -70,3 +70,6 @@ owner:
   reddit: #username
   telegram: #username
   medium: sp4ghetticode
+  mastodon:
+    user: spaghetticode
+    server: androiddev.social
