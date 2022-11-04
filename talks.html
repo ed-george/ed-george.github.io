@@ -11,6 +11,8 @@ permalink: /talks/
 
 {% assign talks_by_year = talks | group_by_exp:"talks", "talks.event.date | date: '%Y' " %}
 
+{% assign today_date = 'now' | date: '%s' | times: 1 %}
+
 <div class="talks">
 
   <div class="timeline" id="timeline">
@@ -32,16 +34,16 @@ permalink: /talks/
       </div>
 
       {% for talk in group.items %}
+      {% assign talk_date = talk.event.date | date: '%s' | plus: 0 %}
       <ul>
         <li>
-          {% assign talk_date = talk.event.date | date: '%s' | plus: 0 %}
-          {% assign today_date = 'now' | date: '%s' | times: 1 %}
           {% if talk_date < today_date %}
           <h5 class="talks-title">{{ talk.title }}</h5>
-          {% else %}
-          <h5 class="talks-title-soon">{{ talk.title }}</h5>
-          {% endif %}
           <div class="talks-event">{{ talk.event.date | date: "%b %-d" }} &commat; <a href="{{ talk.event.url }}" target="_blank">{{ talk.event.title }}</a>
+          {% else %}
+          <h5 class="talks-title-soon"><i class="fa-solid fa-pen-clip"></i> {{ talk.title }}</h5>
+          <div class="talks-event-soon">{{ talk.event.date | date: "%b %-d" }} &commat; <a href="{{ talk.event.url }}" target="_blank">{{ talk.event.title }}</a>
+          {% endif %}
           {% if talk.video %}
                 &#8212; <a href="{{ talk.video.url }}" target="_blank"><i class="fa fa-fw fa-film"></i> {{ talk.video.title }} </a>
           {% endif %}
