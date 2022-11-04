@@ -15,6 +15,11 @@
 #   - title: Optional External link 2
 #     url: https://example.com
 #     icon: optional-icon
+- title: "How to become your app’s ‘security champion’"
+  event:
+    title: "nor(DEV):con 23"
+    url: https://nordevcon.com
+    date: '2023-02-23'
 - title: "OWASP Top 10 in 10 Minutes (working title)"
   event:
     title: "App Talks Manchester Meetup"
