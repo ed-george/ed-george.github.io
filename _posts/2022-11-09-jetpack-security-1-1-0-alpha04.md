@@ -2,7 +2,7 @@
 layout: post
 title: "What's new in Jetpack Security Crypto Version 1.1.0-alpha04"
 excerpt: "Out of the blue, the Jetpack Security Crypto library sees its first update in 18 months. Let's take a look at what's new!"
-categories: [Android, Security, AndroidX]
+categories: [Android, Security, JetSec, Tools]
 comments: true
 medium: https://sp4ghetticode.medium.com/whats-new-in-jetpack-security-crypto-version-1-1-0-alpha04-fd850cd12d8a
 image:

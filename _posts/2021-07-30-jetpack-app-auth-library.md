@@ -2,7 +2,7 @@
 layout: post
 title: "Hands on with Jetpack's Security App Authenticator library"
 excerpt: "A look into Jetpack Security's latest exciting addition"
-categories: [Android, Jetpack, Security, Tools]
+categories: [Android, JetSec, Security, Tools]
 comments: true
 medium: https://sp4ghetticode.medium.com/hands-on-with-jetpacks-security-app-authenticator-library-e6e5efd8552b
 image:
