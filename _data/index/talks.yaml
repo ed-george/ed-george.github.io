@@ -20,16 +20,22 @@
     title: "nor(DEV):con 23"
     url: https://nordevcon.com
     date: '2023-02-23'
-- title: "OWASP Top 10 in 10 Minutes (working title)"
+- title: "OWASP Top 10 (in 10 minutes or less)"
   event:
     title: "App Talks Manchester Meetup"
     url: https://www.meetup.com/app-talks-manchester/events/289204450/
     date: '2022-11-17'
+  slides:
+    title: Slides
+    url: https://speakerdeck.com/sp4ghetticode/the-owasp-top-10-in-10-minutes-or-less
 - title: "How to become your app’s ‘security champion’"
   event:
     title: "Droidcon London 2022"
     url: https://london.droidcon.com/ed-holloway-george
     date: '2022-10-28'
+  video:
+    title: Video on Droidcon
+    url: https://www.droidcon.com/2022/11/15/how-to-become-your-apps-security-champion
   slides:
     title: Slides
     url: https://speakerdeck.com/sp4ghetticode/how-to-become-your-apps-security-champion
