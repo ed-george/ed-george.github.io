@@ -3,9 +3,9 @@
 # Site wide configuration
 ####################################
 #
-title: Ed Holloway-George - Android Developer
+title: Ed Holloway-George | Android Developer | Android GDE
 email:
-description: Android developer and lover of all things mobile security, Kotlin and more.
+description: Android developer, GDE and lover of all things mobile security, Kotlin and more.
 url: https://ed-george.github.io
 keywords: ["security", "blog", "android", "kotlin", "java", "mobile", "androiddev", "code", "development"]
 
@@ -36,7 +36,7 @@ owner:
   name: Ed Holloway-George
   avatar: ed.png
   job: "Android Developer"
-  bio: "Android developer and lover of all things mobile security, Kotlin and more."
+  bio: "Android GDE and lover of all things mobile security, Kotlin and more."
   email:
   disqus-shortname:
   twitter: sp4ghetticode
@@ -73,3 +73,4 @@ owner:
   mastodon:
     user: spaghetticode
     server: androiddev.social
+  polywork: spaghetticode

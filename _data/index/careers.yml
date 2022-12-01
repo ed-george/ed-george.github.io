@@ -1,7 +1,12 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name: Google Developer Expert
+  link: https://developers.google.com/community/experts
+  date: Nov 2022 - <i class="fa fa-calendar" aria-hidden="true" title="Present"></i>
+  job: Android GDE
+
 - name: ASOS
-  link: https://himumsaiddad.com
+  link: https://asos.com
   date: May 2021 - <i class="fa fa-calendar" aria-hidden="true" title="Present"></i>
   job: Senior Android Developer
 
