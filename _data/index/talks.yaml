@@ -25,6 +25,18 @@
     title: "Android Worldwide"
     url: https://android-worldwide.com
     date: '2023-01-31'
+  slides:
+    title: Slides
+    url: https://speakerdeck.com/sp4ghetticode/how-to-become-your-apps-security-champion-android-worldwide-jan-2023
+  links:
+  - title: Security Champion Success Guide
+    url: https://securitychampionsuccessguide.org
+  - title: MobSF
+    url: https://mobsf.github.io/docs/#/
+  - title: ProGuard Playground
+    url: https://playground.proguard.com
+  - title: JADX
+    url: https://github.com/skylot/jadx
 - title: "OWASP Top 10 (in 10 minutes or less)"
   event:
     title: "App Talks Manchester Meetup"
