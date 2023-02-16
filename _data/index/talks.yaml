@@ -25,6 +25,9 @@
     title: "Android Worldwide"
     url: https://android-worldwide.com
     date: '2023-01-31'
+  video:
+    title: Video on YouTube
+    url: https://www.youtube.com/watch?v=hdxdLv5HMLU
   slides:
     title: Slides
     url: https://speakerdeck.com/sp4ghetticode/how-to-become-your-apps-security-champion-android-worldwide-jan-2023
