@@ -20,6 +20,18 @@
     title: "nor(DEV):con 23"
     url: https://nordevcon.com
     date: '2023-02-23'
+  slides:
+    title: Slides
+    url: https://speakerdeck.com/sp4ghetticode/how-to-become-your-apps-security-champion-nor-dev-con-23
+  links:
+  - title: Security Champion Success Guide
+    url: https://securitychampionsuccessguide.org
+  - title: MobSF
+    url: https://mobsf.github.io/docs/#/
+  - title: ProGuard Playground
+    url: https://playground.proguard.com
+  - title: JADX
+    url: https://github.com/skylot/jadx
 - title: "How to become your app’s ‘security champion’"
   event:
     title: "Android Worldwide"
