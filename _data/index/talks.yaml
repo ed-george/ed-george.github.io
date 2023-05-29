@@ -15,6 +15,21 @@
 #   - title: Optional External link 2
 #     url: https://example.com
 #     icon: optional-icon
+- title: "How to stop the ‘Gradle Snatchers’: Securing your builds from baddies"
+  event:
+    title: "Droidcon Berlin 2023"
+    url: https://berlin.droidcon.com/ed-holloway-george/
+    date: '2023-07-05'
+- title: "Living the JetSec Lifestyle"
+  event:
+    title: "Android Meetup x InfinityWorks"
+    url: https://www.linkedin.com/posts/lara-thomas-836085156_mobilemeetup-androidmeetup-meetup-activity-7051511123921006592-wGB6
+    date: '2023-06-01'
+  links:
+  - title: "AndroidX Security Library"
+    url: https://developer.android.com/jetpack/androidx/releases/security
+  - title: "My previous App Authenticator blog"
+    url: https://www.spght.dev/articles/30-07-2021/jetpack-app-auth-library
 - title: "How to become your app’s ‘security champion’"
   event:
     title: "nor(DEV):con 23"
