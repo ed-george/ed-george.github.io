@@ -25,10 +25,15 @@
     title: "Android Meetup x InfinityWorks"
     url: https://www.linkedin.com/posts/lara-thomas-836085156_mobilemeetup-androidmeetup-meetup-activity-7051511123921006592-wGB6
     date: '2023-06-01'
+  slides:
+    title: Slides
+    url: https://speakerdeck.com/sp4ghetticode/living-the-jetsec-lifestyle
   links:
   - title: "AndroidX Security Library"
     url: https://developer.android.com/jetpack/androidx/releases/security
-  - title: "My previous App Authenticator blog"
+  - title: "More about Insecure Data Storage"
+    url: https://www.spght.dev/articles/04-06-2022/owasp-m2
+  - title: "More about App Authenticator"
     url: https://www.spght.dev/articles/30-07-2021/jetpack-app-auth-library
 - title: "How to become your app’s ‘security champion’"
   event:
