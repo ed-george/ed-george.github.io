@@ -20,6 +20,9 @@
     title: "Droidcon Berlin 2023"
     url: https://berlin.droidcon.com/ed-holloway-george/
     date: '2023-07-05'
+  slides:
+    title: Slides
+    url: https://speakerdeck.com/sp4ghetticode/how-to-stop-the-gradle-snatchers
   links:
   - title: "Gradle Dependency Verification"
     url: https://docs.gradle.org/current/userguide/dependency_verification.html
@@ -27,6 +30,8 @@
     url: https://blog.gradle.org/project-integrity
   - title: "Blog: A Confusing Dependency"
     url: https://web.archive.org/web/20181214053140/http://blog.autsoft.hu/a-confusing-dependency/
+  - title: "Wrapper Integrity Check Script"
+    url: https://gist.github.com/ed-george/3751d09ccdfd33cfe48d8987d9f68510
 - title: "Living the JetSec Lifestyle"
   event:
     title: "Android Meetup x InfinityWorks"
