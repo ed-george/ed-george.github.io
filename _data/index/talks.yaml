@@ -23,6 +23,9 @@
   slides:
     title: Slides
     url: https://speakerdeck.com/sp4ghetticode/how-to-stop-the-gradle-snatchers
+  video:
+    title: Video on Droidcon
+    url: https://www.droidcon.com/2023/07/31/how-to-stop-the-gradle-snatchers-securing-your-builds-from-baddies/
   links:
   - title: "Gradle Dependency Verification"
     url: https://docs.gradle.org/current/userguide/dependency_verification.html
