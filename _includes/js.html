@@ -13,3 +13,32 @@
 </script>
 
 {% endif %}
+
+<script type="text/javascript">
+  function MastodonShare(e){
+    // Get the source text
+     src = e.target.getAttribute("data-src");
+ 
+     // Get the Mastodon domain
+     domain = prompt("Enter your Mastodon domain", "androiddev.social");
+ 
+     if (domain == "" || domain == null){
+         return;
+     }
+
+     const regex = /(http|https):\/\/(\w+:{0,1}\w*)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%!\-\/]))?/;
+     const pattern = new RegExp(regex); 
+
+     if (pattern.test(domain)) {
+       prefix = ""
+     } else {
+       prefix = "https://"
+     }
+ 
+     // Build the URL
+     url = prefix + domain + "/share?text=" + src;
+ 
+     // Open a window on the share page
+     window.open(url, '_blank');
+ }
+</script>

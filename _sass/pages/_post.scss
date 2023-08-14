@@ -257,18 +257,18 @@ a.read-more {
     border-color: #f60;
   }
 }
-.reddit {
-  background-color: #5f99cf;
+.mastodon {
+  background-color: #595aff;
   color: $white;
-  border-color: #5f99cf;
+  border-color: #595aff;
   &:visited {
     color: $white;
-    border-color: #5f99cf;
+    border-color: #595aff;
   }
   &:hover {
     background-color: $white;
-    color: #5f99cf;
-    border-color: #5f99cf;
+    color: #595aff;
+    border-color: #595aff;
   }
 }
 
