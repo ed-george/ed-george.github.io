@@ -17,6 +17,34 @@
 #     icon: optional-icon
 - title: "How to stop the ‘Gradle Snatchers’: Securing your builds from baddies"
   event:
+    title: "Droidcon London 2023"
+    url: https://london.droidcon.com/ed-holloway-george/
+    date: '2023-10-26'
+  slides:
+    title: Slides
+    url: https://speakerdeck.com/sp4ghetticode/how-to-stop-the-gradle-snatchers
+  links:
+  - title: "Gradle Dependency Verification"
+    url: https://docs.gradle.org/current/userguide/dependency_verification.html
+  - title: "Gradle Blog: Protecting Project Integrity"
+    url: https://blog.gradle.org/project-integrity
+  - title: "Blog: A Confusing Dependency"
+    url: https://web.archive.org/web/20181214053140/http://blog.autsoft.hu/a-confusing-dependency/
+  - title: "Wrapper Integrity Check Script"
+    url: https://gist.github.com/ed-george/3751d09ccdfd33cfe48d8987d9f68510
+- title: "Don’t get stung by OWASP - An intro into writing code for greater Android Security"
+  event:
+    title: UoN HackSoc Meetup 2023
+    url: https://hacksocnotts.co.uk/events/2023-10-24-android-best-practices-talk-by-ed-holloway-george/
+    date: '2023-10-24'
+  links:
+  - title: Companion App
+    url: https://github.com/ed-george/owasp-top-five
+    icon: github
+  - title: OWASP Top 10
+    url: https://owasp.org/www-project-mobile-top-10
+- title: "How to stop the ‘Gradle Snatchers’: Securing your builds from baddies"
+  event:
     title: "Droidcon Berlin 2023"
     url: https://berlin.droidcon.com/ed-holloway-george/
     date: '2023-07-05'
