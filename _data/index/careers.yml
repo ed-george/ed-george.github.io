@@ -7,7 +7,12 @@
 
 - name: ASOS
   link: https://asos.com
-  date: May 2021 - <i class="fa fa-calendar" aria-hidden="true" title="Present"></i>
+  date: Feb 2023 - <i class="fa fa-calendar" aria-hidden="true" title="Present"></i>
+  job: Lead Android Developer
+
+- name: ASOS
+  link: https://asos.com
+  date: May 2021 - Feb 2023
   job: Senior Android Developer
 
 - name: Hi Mum! Said Dad
