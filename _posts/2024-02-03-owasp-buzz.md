@@ -5,7 +5,7 @@ excerpt: "The OWASP Top 10 list for Mobile has had some significant changes for 
 <br>In this post we'll explore the changes, what this means for your Android apps and how to learn more about the threats we face in 2024."
 categories: [Android, Security, OWASP]
 comments: true
-medium:
+medium: https://proandroiddev.com/whats-the-buzz-about-the-2024-owasp-mobile-top-10-changes-83c93f765bd3
 image:
   feature: /post/owasp-buzz-2024.jpg
   credit: Max Muselmann
