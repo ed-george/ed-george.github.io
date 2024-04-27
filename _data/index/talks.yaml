@@ -17,6 +17,23 @@
 #     icon: optional-icon
 - title: "How to stop the ‘Gradle Snatchers’: Securing your builds from baddies"
   event:
+    title: "Android Makers 2024"
+    url: https://androidmakers.droidcon.com/
+    date: '2024-04-25'
+  slides:
+    title: Slides
+    url: https://speakerdeck.com/sp4ghetticode/how-to-stop-the-gradle-snatchers
+  links:
+  - title: "Gradle Dependency Verification"
+    url: https://docs.gradle.org/current/userguide/dependency_verification.html
+  - title: "Gradle Blog: Protecting Project Integrity"
+    url: https://blog.gradle.org/project-integrity
+  - title: "Blog: A Confusing Dependency"
+    url: https://web.archive.org/web/20181214053140/http://blog.autsoft.hu/a-confusing-dependency/
+  - title: "Wrapper Integrity Check Script"
+    url: https://gist.github.com/ed-george/3751d09ccdfd33cfe48d8987d9f68510
+- title: "How to stop the ‘Gradle Snatchers’: Securing your builds from baddies"
+  event:
     title: "Droidcon London 2023"
     url: https://london.droidcon.com/ed-holloway-george/
     date: '2023-10-26'
