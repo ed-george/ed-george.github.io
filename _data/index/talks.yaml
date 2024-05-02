@@ -20,9 +20,12 @@
     title: "Android Makers 2024"
     url: https://androidmakers.droidcon.com/
     date: '2024-04-25'
+  video:
+    title: Video on Youtube
+    url: https://www.youtube.com/watch?v=loIWpxsMNkg
   slides:
     title: Slides
-    url: https://speakerdeck.com/sp4ghetticode/how-to-stop-the-gradle-snatchers
+    url: https://speakerdeck.com/sp4ghetticode/how-to-stop-the-gradle-snatchers-securing-your-builds-from-baddies-at-amxdc-24
   links:
   - title: "Gradle Dependency Verification"
     url: https://docs.gradle.org/current/userguide/dependency_verification.html
