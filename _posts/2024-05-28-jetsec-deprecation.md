@@ -19,9 +19,7 @@ The knock-on effect is that this move is causing some developers to ask *“What
 
 In this post, we’ll take a look at what this news *really* means for those who have previously embraced `EncryptedSharedPreferences` and also for those who may have been looking to adopt it.
 
-
-
-<iframe src="https://cdn.embedly.com/widgets/media.html?type=text%2Fhtml&amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;schema=twitter&amp;url=https%3A//twitter.com/Sp4ghettiCode/status/1786033489675944311&amp;image=" allowfullscreen="" frameborder="0" height="568" width="680" title="Ed Holloway-George 🍝 on Twitter: &quot;RIP JetSec Crypto 😢 You were a fun little library with big ambitions#AndroidDev pic.twitter.com/9sqt7RT07L / Twitter&quot;" class="fq n ih dk bg" scrolling="no" style="box-sizing: inherit; top: 0px; width: 680px; height: 568px; left: 0px;"></iframe>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">RIP JetSec Crypto 😢 You were a fun little library with big ambitions<a href="https://twitter.com/hashtag/AndroidDev?src=hash&amp;ref_src=twsrc%5Etfw">#AndroidDev</a> <a href="https://t.co/9sqt7RT07L">pic.twitter.com/9sqt7RT07L</a></p>&mdash; Ed Holloway-George 🍝 (@Sp4ghettiCode) <a href="https://twitter.com/Sp4ghettiCode/status/1786033489675944311?ref_src=twsrc%5Etfw">May 2, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 F’s in chat for JetSec Crypto 😢
 
@@ -54,12 +52,12 @@ That said, given this library is so small there’s no reason to fret, as you co
 
 Finally and arguably most importantly, you might just need to ask yourself “What does `EncryptedSharedPreferences` *really* do for me that `SharedPreferences` doesn’t?”
 
-It sounds silly, but given `SharedPreferences` are held locally on the device in the app’s own folder which isn’t accessible by default, is `EncryptedSharedPreferences`really adding that much. Additionally, as of Android 10 (Q), all devices encrypt user data on the filesystem by *default*, adding another level of security.
-A common rebuttal to this is “Well, what about rooted users?” and yes, a user with root access *would* be able to read cleartext `SharedPreferences` but once the device’s integrity is compromised is *anything* really safe, `EncryptedSharedPreferences`included? Many experts (and I), would argue that it isn’t. 🥲 Some food for thought there!
+It sounds silly, but given `SharedPreferences` are held locally on the device in the app’s own folder which isn’t accessible by default, is `EncryptedSharedPreferences` really adding that much. Additionally, as of Android 10 (Q), all devices encrypt user data on the filesystem by *default*, adding another level of security.
+A common rebuttal to this is “Well, what about rooted users?” and yes, a user with root access *would* be able to read cleartext `SharedPreferences` but once the device’s integrity is compromised is *anything* really safe, `EncryptedSharedPreferences` included? Many experts (and I), would argue that it isn’t. 🥲 Some food for thought there!
 
 ## Why JetSec Crypto in 2024?
 
-Ok, so we’ve heard a few reasons why `EncryptedSharedPreferences`might not be the best choice going forward. However, there are undoubtedly still some positives and a handful of reasons to use it!
+Ok, so we’ve heard a few reasons why `EncryptedSharedPreferences` might not be the best choice going forward. However, there are undoubtedly still some positives and a handful of reasons to use it!
 
 Firstly, if you have already adopted `EncryptedSharedPreferences` there’s certainly no *immediate* need to move away from it or seek an alternative. The library won’t stop working overnight and you can still manually update the transitive Tink dependency via your project’s Gradle dependency management. If it’s working for you in the short term, great! Just be aware that in the long term, there will be no updates. If that’s an acceptable level of risk for you and your app, then you are all good 😊
 
