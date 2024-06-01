@@ -9,7 +9,7 @@
 
 .alert {
   min-height: 67px;
-  max-width: 90%;
+  max-width: 100%;
   border-radius: 12px;
   padding: 16px 22px 16px 22px;
   display: flex;
@@ -33,6 +33,8 @@
 .alert .icon__wrapper {
   height: 34px;
   width: 34px;
+  min-height: 34px;
+  min-width: 34px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.253);
   display: flex;
@@ -40,13 +42,14 @@
   justify-content: center;
 }
 .alert .icon__wrapper span {
-  font-size: 21px;
+  font-size: auto;
   color: #fff;
 }
 .alert p {
   color: #fff;
   font-family: Verdana;
   margin-left: 10px;
+  margin-right: 10px
 }
 .alert p a,
 .alert p a:visited,
