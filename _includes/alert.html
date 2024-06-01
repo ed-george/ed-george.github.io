@@ -1,0 +1,11 @@
+{% if page.alert %}
+<div class="alert alert-warning">
+  <div class="icon__wrapper">
+    <span class="fa fa-fw fa-exclamation"></span>
+  </div>
+  <p>{{page.alert}}</p>
+  {% if page.alert_url %}
+  <a href="{{page.alert_url}}" target="_blank" class="fa fa-fw fa-external-link open"></a>
+  {% endif %}
+</div>
+{% endif %}

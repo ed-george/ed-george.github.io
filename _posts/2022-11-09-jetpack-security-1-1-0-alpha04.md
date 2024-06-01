@@ -5,6 +5,8 @@ excerpt: "Out of the blue, the Jetpack Security Crypto library sees its first up
 categories: [Android, Security, JetSec, Tools]
 comments: true
 medium: https://sp4ghetticode.medium.com/whats-new-in-jetpack-security-crypto-version-1-1-0-alpha04-fd850cd12d8a
+alert: "Jetpack Security Crypto is now deprecated - for more, see my <a href=\"/articles/28-05-2024/jetsec-deprecation\">blog post</a>"
+alert_url: /articles/28-05-2024/jetsec-deprecation
 image:
   feature: /post/sec-alpha04.jpg
   credit: Alexander Schimmeck
