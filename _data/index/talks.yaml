@@ -15,6 +15,21 @@
 #   - title: Optional External link 2
 #     url: https://example.com
 #     icon: optional-icon
+- title: "[REDACTED] How to keep your app's secrets, secret"
+  event:
+    title: "Droidcon London 2024"
+    url: https://london.droidcon.com/
+    date: '2024-10-31'
+- title: "[REDACTED] How to keep your app's secrets, secret"
+  event:
+    title: "Droidcon Lisbon 2024"
+    url: https://lisbon.droidcon.com/
+    date: '2024-09-06'
+- title: "How to stop the ‘Gradle Snatchers’: Securing your builds from baddies"
+  event:
+    title: "Droidcon Lisbon 2024"
+    url: https://lisbon.droidcon.com/
+    date: '2024-09-06'
 - title: "How to stop the ‘Gradle Snatchers’: Securing your builds from baddies"
   event:
     title: "Android Makers 2024"
