@@ -20,6 +20,9 @@
     title: "Droidcon London 2024"
     url: https://london.droidcon.com/
     date: '2024-10-31'
+  slides:
+    title: Slides
+    url: https://speakerdeck.com/sp4ghetticode/redacted-how-to-keep-your-apps-secrets-secret
 - title: "[REDACTED] How to keep your app's secrets, secret"
   event:
     title: "Droidcon Lisbon 2024"
@@ -30,6 +33,18 @@
     title: "Droidcon Lisbon 2024"
     url: https://lisbon.droidcon.com/
     date: '2024-09-06'
+  slides:
+    title: Slides
+    url: https://speakerdeck.com/sp4ghetticode/how-to-stop-the-gradle-snatchers-securing-your-builds-from-baddies-at-droidcon-lisbon-24
+  links:
+  - title: "Gradle Dependency Verification"
+    url: https://docs.gradle.org/current/userguide/dependency_verification.html
+  - title: "Gradle Blog: Protecting Project Integrity"
+    url: https://blog.gradle.org/project-integrity
+  - title: "Blog: A Confusing Dependency"
+    url: https://zsmb.co/a-confusing-dependency/
+  - title: "Wrapper Integrity Check Script"
+    url: https://gist.github.com/ed-george/3751d09ccdfd33cfe48d8987d9f68510
 - title: "How to stop the ‘Gradle Snatchers’: Securing your builds from baddies"
   event:
     title: "Android Makers 2024"
