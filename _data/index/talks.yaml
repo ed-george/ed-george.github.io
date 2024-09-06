@@ -20,14 +20,14 @@
     title: "Droidcon London 2024"
     url: https://london.droidcon.com/
     date: '2024-10-31'
-  slides:
-    title: Slides
-    url: https://speakerdeck.com/sp4ghetticode/redacted-how-to-keep-your-apps-secrets-secret
 - title: "[REDACTED] How to keep your app's secrets, secret"
   event:
     title: "Droidcon Lisbon 2024"
     url: https://lisbon.droidcon.com/
     date: '2024-09-06'
+  slides:
+    title: Slides
+    url: https://speakerdeck.com/sp4ghetticode/redacted-how-to-keep-your-apps-secrets-secret
 - title: "How to stop the ‘Gradle Snatchers’: Securing your builds from baddies"
   event:
     title: "Droidcon Lisbon 2024"
