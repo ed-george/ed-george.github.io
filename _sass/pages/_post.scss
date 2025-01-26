@@ -271,6 +271,20 @@ a.read-more {
     border-color: #595aff;
   }
 }
+.bluesky {
+  background-color: #08f;
+  color: $white;
+  border-color: #08f;
+  &:visited {
+    color: $white;
+    border-color: #08f;
+  }
+  &:hover {
+    background-color: $white;
+    color: #08f;
+    border-color: #08f;
+  }
+}
 
 // TOC
 

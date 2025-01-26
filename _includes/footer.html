@@ -2,13 +2,13 @@
 
 <hr />
 
-  {% if author.twitter %} 
-    <a href="https://twitter.com/{{author.twitter}}">
+  {% if author.bluesky %} 
+    <a href="https://bsky.app/profile/{{author.bluesky}}">
   {% endif %}
     
   <img class="shrink transition" src="{{site.url}}/img/logo.png" alt="@Sp4ghettiCode"/>
   
-  {% if author.twitter %}
+  {% if author.bluesky %}
     </a>
   {% endif %}
 
