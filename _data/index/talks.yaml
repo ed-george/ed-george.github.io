@@ -23,14 +23,14 @@
   slides:
     title: Slides
     url: https://speakerdeck.com/sp4ghetticode/redacted-how-to-keep-your-apps-secrets-secret-amxdc-25
-  video:
-    title: Video on Droidcon.com
-    url: https://www.droidcon.com/2024/12/14/redacted-how-to-keep-your-apps-secrets-secret/
 - title: "[REDACTED] How to keep your app's secrets, secret"
   event:
     title: "Droidcon London 2024"
     url: https://london.droidcon.com/
     date: '2024-10-31'
+  video:
+    title: Video on droidcon.com
+    url: https://www.droidcon.com/2024/12/14/redacted-how-to-keep-your-apps-secrets-secret/
 - title: "[REDACTED] How to keep your app's secrets, secret"
   event:
     title: "Droidcon Lisbon 2024"
