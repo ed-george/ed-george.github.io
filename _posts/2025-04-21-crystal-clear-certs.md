@@ -88,7 +88,7 @@ Adding this to your existing security configuration is super straightforward and
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <network-security-config>
-  <base-config cleartextTrafficPermitted="true">
+  <base-config cleartextTrafficPermitted="false">
     <certificateTransparency enabled="true"/>
   </base-config>
 </network-security-config>
