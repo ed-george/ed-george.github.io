@@ -4,7 +4,7 @@ title: "How to have 'Crystal Clear Certificates': Securing your Android Apps usi
 excerpt: "Android 16 introduces official support for Certificate Transparency, but what is it and why is it so important?"
 categories: [Android, Security]
 comments: true
-medium: 
+medium: "https://proandroiddev.com/how-to-have-crystal-clear-certificates-950f1afa2f66"
 image:
   feature: /post/certs.jpg
   credit: Ramakant Sharda

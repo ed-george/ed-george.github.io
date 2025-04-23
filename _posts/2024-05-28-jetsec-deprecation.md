@@ -5,7 +5,7 @@ excerpt: "EncryptedSharedPreferences is now deprecated, but what does this mean 
 categories: [Android, Security, JetSec]
 comments: true
 alert: "This post was made before the JetSec library was officially deprecated as of version 1.1.0-alpha07 in April 2025<br>To provide on-going support of the library, I now maintain a <a href='https://github.com/ed-george/encrypted-shared-preferences' target='_blank'><strong>fork on GitHub</strong></a>"
-medium:
+medium: "https://medium.com/proandroiddev/securing-the-future-navigating-the-deprecation-of-encrypted-shared-preferences-91ce3c20ae8d"
 image:
   feature: /post/jetsec-deprecation.jpg
   credit: Annie Spratt
