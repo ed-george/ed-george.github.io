@@ -67,7 +67,7 @@ While this overview glosses over a lot of finer details, Matt Dolanâ€™s talk [â€
 
 So, with a lot of preamble out of the way, what has *actually* changed as of Android 16 (API 36)?
 
-The [Network Security Config file](https://developer.android.com/privacy-and-security/security-config#FileFormat) now contains a`certificateTransparency` tag allowing CT to be enabled *globally* or *per domain* for Android 16+ devices.
+The [Network Security Config file](https://developer.android.com/privacy-and-security/security-config#FileFormat) now contains a `certificateTransparency` tag allowing CT to be enabled *globally* or *per domain* for Android 16+ devices.
 
 Adding this to your existing security configuration is super straightforward and can be done with just a couple of additional lines.
 
@@ -88,7 +88,7 @@ Adding this to your existing security configuration is super straightforward and
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <network-security-config>
-  <base-config cleartextTrafficPermitted="false">
+  <base-config>
     <certificateTransparency enabled="true"/>
   </base-config>
 </network-security-config>
