@@ -15,6 +15,14 @@
 #   - title: Optional External link 2
 #     url: https://example.com
 #     icon: optional-icon
+- title: "How To Become Your App’s ‘Security Champion’ (2025 Edition)"
+  event:
+    title: "Leeds Mobile Meetup"
+    url: https://www.meetup.com/leeds-mobile/events/310168020/
+    date: '2025-09-29'
+  slides:
+    title: Slides
+    url: https://speakerdeck.com/sp4ghetticode/how-to-become-your-apps-security-champion-2025-edition
 - title: "[REDACTED] How to keep your app's secrets, secret"
   event:
     title: "Android Makers 2025"
