@@ -28,6 +28,9 @@
     title: "Leeds Mobile Meetup"
     url: https://www.meetup.com/leeds-mobile/events/310168020/
     date: '2025-09-29'
+  video:
+    title: Video on YouTube
+    url: https://www.youtube.com/watch?v=PGRKtfUKqL4
   slides:
     title: Slides
     url: https://speakerdeck.com/sp4ghetticode/how-to-become-your-apps-security-champion-2025-edition
@@ -39,6 +42,9 @@
   slides:
     title: Slides
     url: https://speakerdeck.com/sp4ghetticode/redacted-how-to-keep-your-apps-secrets-secret-amxdc-25
+ video:
+    title: Video on YouTube
+    url: https://www.youtube.com/watch?v=H-wdOLCIiXA
 - title: "[REDACTED] How to keep your app's secrets, secret"
   event:
     title: "Droidcon London 2024"
