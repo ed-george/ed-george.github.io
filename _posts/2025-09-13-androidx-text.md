@@ -4,7 +4,7 @@ title: "Whats new in... 'AndroidX Text - 1.0.0-alpha01'"
 excerpt: "A quick look at one of the latest additions to the AndroidX suite of libraries"
 categories: [Android]
 comments: true
-medium: 
+medium: "https://medium.com/proandroiddev/whats-new-in-androidx-text-1-0-0-alpha01-2de960ee921b"
 image:
   feature: /post/androidx-text.jpg
   credit: Galen Crout
