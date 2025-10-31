@@ -15,6 +15,14 @@
 #   - title: Optional External link 2
 #     url: https://example.com
 #     icon: optional-icon
+- title: "Going Beyond Obfuscation: Advanced Techniques for Protecting Android Apps"
+  event:
+    title: "Droidcon London 2025"
+    url: https://london.droidcon.com/speakers/ed-holloway-george
+    date: '2025-10-30'
+  slides:
+    title: Slides
+    url: https://speakerdeck.com/sp4ghetticode/going-beyond-obfuscation-advanced-techniques-for-protecting-android-apps
 - title: "How To Become Your App’s ‘Security Champion’ (2025 Edition)"
   event:
     title: "Leeds Mobile Meetup"
