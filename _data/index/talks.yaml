@@ -17,6 +17,14 @@
 #     icon: optional-icon
 - title: "Going Beyond Obfuscation: Advanced Techniques for Protecting Android Apps"
   event:
+    title: "Android Makers 2026"
+    url: https://androidmakers.droidcon.com/
+    date: '2026-04-12'
+  slides:
+    title: Slides
+    url: https://speakerdeck.com/sp4ghetticode/going-beyond-obfuscation-advanced-techniques-for-protecting-android-apps-99596381-2e78-4399-9ab0-0f0a6bc6ec63
+- title: "Going Beyond Obfuscation: Advanced Techniques for Protecting Android Apps"
+  event:
     title: "Droidcon London 2025"
     url: https://london.droidcon.com/speakers/ed-holloway-george
     date: '2025-10-30'
